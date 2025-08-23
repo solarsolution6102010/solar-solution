@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shyama Solar Solution - Premium Solar Panel Systems</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <div class="flex items-center">
+                <div class="solar-panel mr-4"></div>
+                <h1 class="text-2xl font-bold text-white">SHYAMA SOLAR</h1>
+            </div>
+            <div class="flex space-x-2">
+                <div class="nav-item active" onclick="showPage('home')">Home</div>
+                <div class="nav-item" onclick="showPage('about')">About Us</div>
+                <div class="nav-item" onclick="showPage('contact')">Contact</div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <div class="container mx-auto px-6">
+            <div class="hero-section">
+                <div class="logo-section">
+                    <div class="logo"></div>
+                    <div>
+                        <h1 class="text-5xl font-bold text-white mb-4">SHYAMA SOLAR SOLUTION</h1>
+                        <p class="text-xl text-yellow-300">Authorised Vendor - Premium Solar Panel Systems</p>
+                        <p class="text-lg text-white mt-2">Adani | Vikram | Tata | Easy | UTL</p>
+                    </div>
+                </div>
+                <button class="btn mt-8" onclick="showPage('contact')">Get Free Quote Today</button>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="solar-panel mx-auto mb-4"></div>
+                    <h3 class="text-2xl font-bold text-white mb-2">10+ Years</h3>
+                    <p class="text-yellow-300">Industry Experience</p>
+                </div>
+                <div class="stat-card">
+                    <div class="solar-panel mx-auto mb-4"></div>
+                    <h3 class="text-2xl font-bold text-white mb-2">500+</h3>
+                    <p class="text-yellow-300">Happy Customers</p>
+                </div>
+                <div class="stat-card">
+                    <div class="solar-panel mx-auto mb-4"></div>
+                    <h3 class="text-2xl font-bold text-white mb-2">24/7</h3>
+                    <p class="text-yellow-300">Customer Support</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="text-3xl font-bold text-white mb-6">Why Choose Solar Energy?</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-bold text-yellow-300 mb-4">Environmental Benefits</h3>
+                        <ul class="text-white space-y-2">
+                            <li>• Reduce carbon footprint by up to 80%</li>
+                            <li>• Clean, renewable energy source</li>
+                            <li>• No harmful emissions or pollution</li>
+                            <li>• Contribute to a sustainable future</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-yellow-300 mb-4">Financial Benefits</h3>
+                        <ul class="text-white space-y-2">
+                            <li>• Save 70-90% on electricity bills</li>
+                            <li>• Government subsidies available</li>
+                            <li>• ROI within 3-5 years</li>
+                            <li>• Increase property value</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Government Scheme Banner Section -->
+            <div class="card">
+                <div class="text-center mb-6">
+                    <h2 class="text-3xl font-bold text-white mb-4">Government Solar Scheme</h2>
+                    <p class="text-yellow-300 text-lg mb-6">Get up to 90% subsidy under PM Surya Ghar Muft Bijli Yojana</p>
+                </div>
+                <div class="banner-container">
+                    <img src="banner.jpg" alt="PM Surya Ghar Muft Bijli Yojana - Solar Subsidy Scheme" class="w-full rounded-lg shadow-lg" />
+                </div>
+                <div class="mt-6 text-center">
+                    <p class="text-white text-lg mb-4">
+                        Under the Central and State Government scheme, get massive subsidies on solar installation:
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-6 mt-4">
+                        <div class="subsidy-card">
+                            <h3 class="text-xl font-bold text-yellow-300 mb-2">2KWP System</h3>
+                            <p class="text-white">Central Subsidy: ₹60,000/-</p>
+                            <p class="text-white">State Subsidy: ₹30,000/-</p>
+                            <p class="text-yellow-300 font-bold">Total Benefit: ₹90,000/-</p>
+                        </div>
+                        <div class="subsidy-card">
+                            <h3 class="text-xl font-bold text-yellow-300 mb-2">3-10KWP System</h3>
+                            <p class="text-white">Central Subsidy: ₹78,000/-</p>
+                            <p class="text-white">State Subsidy: ₹30,000/-</p>
+                            <p class="text-yellow-300 font-bold">Total Benefit: ₹1,08,000/-</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="text-3xl font-bold text-white mb-6">How Solar Panels Work</h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <div class="solar-panel mx-auto mb-4"></div>
+                        <h3 class="text-lg font-bold text-yellow-300 mb-2">Step 1: Capture</h3>
+                        <p class="text-white">Solar panels capture sunlight and convert it to DC electricity</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="solar-panel mx-auto mb-4"></div>
+                        <h3 class="text-lg font-bold text-yellow-300 mb-2">Step 2: Convert</h3>
+                        <p class="text-white">Inverter converts DC electricity to AC for home use</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="solar-panel mx-auto mb-4"></div>
+                        <h3 class="text-lg font-bold text-yellow-300 mb-2">Step 3: Power</h3>
+                        <p class="text-white">Clean electricity powers your home and appliances</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-gallery">
+                <div class="gallery-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/fccbe27f-6a84-4e2b-af7f-e08fae2499dc.png" alt="Residential solar panel installation on modern house rooftop with blue panels arranged in grid pattern under bright sunlight" />
+                </div>
+                <div class="gallery-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c8f8aaf1-e5e3-4282-a742-6fad13dc3cff.png" alt="Commercial solar farm with rows of large solar panels on industrial building rooftop generating clean energy" />
+                </div>
+                <div class="gallery-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4dea999e-b230-49a3-b12f-0c74cde560e7.png" alt="Solar panel maintenance technician inspecting and cleaning photovoltaic panels on residential roof system" />
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="text-3xl font-bold text-white mb-6">Our Premium Brands</h2>
+                <div class="grid md:grid-cols-5 gap-6 text-center">
+                    <div class="text-yellow-300 font-bold text-xl">ADANI</div>
+                    <div class="text-yellow-300 font-bold text-xl">VIKRAM</div>
+                    <div class="text-yellow-300 font-bold text-xl">TATA</div>
+                    <div class="text-yellow-300 font-bold text-xl">EASY</div>
+                    <div class="text-yellow-300 font-bold text-xl">UTL</div>
+                </div>
+                <p class="text-white mt-4 text-center">All products come with 25-year warranty and guaranteed performance</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us Page -->
+    <div id="about" class="page">
+        <div class="container mx-auto px-6">
+            <div class="hero-section mt-20">
+                <h1 class="text-5xl font-bold text-white mb-6">About Shyama Solar Solution</h1>
+                <p class="text-xl text-yellow-300">Leading Solar Energy Provider in Mainpuri</p>
+            </div>
+
+            <div class="card">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <img src="founder.jpg" alt="Founder - Professional solar energy consultant and authorised vendor" class="rounded-lg w-full h-auto object-cover" />
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-bold text-white mb-6">Meet Our Founder</h2>
+                        <h3 class="text-2xl font-bold text-yellow-300 mb-4">Rekha Devi</h3>
+                        <p class="text-lg text-yellow-300 mb-4">Authorised Vendor & Solar Energy Expert</p>
+                        <p class="text-white mb-4">
+                            With over a decade of experience in the renewable energy sector, Rekha Devi has been at the forefront of bringing clean, sustainable solar solutions to homes and businesses across Uttar Pradesh. As an authorised vendor for leading solar panel manufacturers, she ensures that every customer receives the highest quality products and professional installation services.
+                        </p>
+                        <p class="text-white mb-4">
+                            Our commitment goes beyond just selling solar panels. We believe in creating long-term relationships with our customers by providing comprehensive support, maintenance services, and ensuring maximum return on investment through our expertly designed solar solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="solar-panel mx-auto mb-4"></div>
+                    <h3 class="text-2xl font-bold text-white mb-2">500+</h3>
+                    <p class="text-yellow-300">Successful Installations</p>
+                </div>
+                <div class="stat-card">
+                    <div class="solar-panel mx-auto mb-4"></div>
+                    <h3 class="text-2xl font-bold text-white mb-2">10MW+</h3>
+                    <p class="text-yellow-300">Total Capacity Installed</p>
+                </div>
+                <div class="stat-card">
+                    <div class="solar-panel mx-auto mb-4"></div>
+                    <h3 class="text-2xl font-bold text-white mb-2">98%</h3>
+                    <p class="text-yellow-300">Customer Satisfaction</p>
+                </div>
+                <div class="stat-card">
+                    <div class="solar-panel mx-auto mb-4"></div>
+                    <h3 class="text-2xl font-bold text-white mb-2">25</h3>
+                    <p class="text-yellow-300">Years Warranty</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="text-3xl font-bold text-white mb-6 text-center">Our Members</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="member-card">
+                        <div class="text-center">
+                            <img src="member1.jpg" alt="Akshay" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover border-4 border-yellow-300" />
+                            <h3 class="text-2xl font-bold text-yellow-300 mb-2">Akshay</h3>
+                            <p class="text-white mb-3">8+ Years Experience</p>
+                            <p class="text-white text-sm">
+                                Specialized in large-scale solar installations and system optimization. Expert in residential and commercial solar solutions with a focus on maximizing energy efficiency.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="member-card">
+                        <div class="text-center">
+                            <img src="member2.jpg" alt="Anurag" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover border-4 border-yellow-300" />
+                            <h3 class="text-2xl font-bold text-yellow-300 mb-2">Anurag</h3>
+                            <p class="text-white mb-3">6+ Years Experience</p>
+                            <p class="text-white text-sm">
+                                Expert in solar system design and customer consultation. Provides technical guidance and ensures optimal solar solutions tailored to individual customer needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="text-3xl font-bold text-white mb-6">Our Mission & Vision</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold text-yellow-300 mb-4">Our Mission</h3>
+                        <p class="text-white">
+                            To make clean, renewable solar energy accessible and affordable for every household and business in our community. We strive to reduce dependence on conventional energy sources while contributing to a greener, more sustainable future for generations to come.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-yellow-300 mb-4">Our Vision</h3>
+                        <p class="text-white">
+                            To be the leading solar energy provider in Uttar Pradesh, recognized for our quality products, exceptional service, and commitment to environmental sustainability. We envision a future where solar energy is the primary source of power for all communities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="text-3xl font-bold text-white mb-6">Why Choose Us?</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-lg font-bold text-yellow-300 mb-2">✓ Authorised Vendor Status</h3>
+                        <p class="text-white mb-4">Official partnerships with leading manufacturers ensure authentic products and warranty coverage.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-yellow-300 mb-2">✓ Expert Installation Team</h3>
+                        <p class="text-white mb-4">Certified technicians with years of experience in solar panel installation and maintenance.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-yellow-300 mb-2">✓ Complete Solution Provider</h3>
+                        <p class="text-white mb-4">From consultation to installation to after-sales service, we handle everything for you.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold text-yellow-300 mb-2">✓ Local Support</h3>
+                        <p class="text-white mb-4">Based in Mainpuri, we provide quick response times and personalized local service.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-gallery">
+                <div class="gallery-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8a04b7f8-cef7-424b-9bd2-f09f60eb5a61.png" alt="Shyama Solar Solution installation team working on residential rooftop solar panel installation with safety equipment and professional tools" />
+                </div>
+                <div class="gallery-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/300e7ffd-4275-42cb-9a67-1448a6935a0b.png" alt="Happy customer family standing in front of their home with newly installed solar panels, showing satisfaction and joy with their investment" />
+                </div>
+                <div class="gallery-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/627a8c25-bf70-444c-9db3-b1dd3b3c6d8f.png" alt="Modern office and warehouse facility of Shyama Solar Solution showing organized inventory of solar panels and equipment storage" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact" class="page">
+        <div class="container mx-auto px-6">
+            <div class="hero-section mt-20">
+                <h1 class="text-5xl font-bold text-white mb-6">Contact Shyama Solar Solution</h1>
+                <p class="text-xl text-yellow-300">Get in touch for your solar energy needs</p>
+            </div>
+
+            <div class="card">
+                <h2 class="text-3xl font-bold text-white mb-6">Contact Information</h2>
+                
+                <div class="space-y-6">
+                    <div class="flex items-center space-x-4">
+                        <div class="solar-panel"></div>
+                        <div>
+                            <h3 class="text-xl font-bold text-yellow-300">Business Owner</h3>
+                            <p class="text-white text-lg">Rekha Devi</p>
+                            <p class="text-yellow-300">Authorised Vendor</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center">
+                            <span class="text-blue-900 font-bold">📞</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-yellow-300">Phone Numbers</h3>
+                            <p class="text-white text-lg">Anurag: <a href="tel:9761008921" class="text-yellow-300 hover:text-yellow-200">9761008921</a></p>
+                            <p class="text-white text-lg">Akshay: <a href="tel:9758747151" class="text-yellow-300 hover:text-yellow-200">9758747151</a></p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center">
+                            <span class="text-blue-900 font-bold">📍</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-yellow-300">Address</h3>
+                            <p class="text-white text-lg">Near Bijali Ghar,</p>
+                            <p class="text-white text-lg">Karhal Road,</p>
+                            <p class="text-white text-lg">Mainpuri, 205001 (U.P.)</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center space-x-4">
+                        <div class="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center">
+                            <span class="text-blue-900 font-bold">⏰</span>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-yellow-300">Business Hours</h3>
+                            <p class="text-white">Monday - Saturday: 9:00 AM - 7:00 PM</p>
+                            <p class="text-white">Sunday: 10:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-8">
+                <h2 class="text-3xl font-bold text-white mb-6">Our Service Areas</h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="text-center">
+                        <div class="solar-panel mx-auto mb-4"></div>
+                        <h3 class="text-xl font-bold text-yellow-300 mb-2">Mainpuri District</h3>
+                        <p class="text-white">Complete coverage across all areas</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="solar-panel mx-auto mb-4"></div>
+                        <h3 class="text-xl font-bold text-yellow-300 mb-2">Surrounding Districts</h3>
+                        <p class="text-white">Etawah, Farrukhabad, Hardoi</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="solar-panel mx-auto mb-4"></div>
+                        <h3 class="text-xl font-bold text-yellow-300 mb-2">Emergency Service</h3>
+                        <p class="text-white">24/7 support and maintenance</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-gallery">
+                <div class="gallery-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/1d778d03-b3b9-48b9-aec2-5042927e22ba.png" alt="Shyama Solar Solution office building exterior with company signage and solar panels visible on the rooftop in Mainpuri" />
+                </div>
+                <div class="gallery-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/197e3e51-1dfb-4370-b610-184a7ee59ec8.png" alt="Customer consultation meeting with Man Mohan Singh explaining solar panel options and benefits to interested clients" />
+                </div>
+                <div class="gallery-item">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/3cd9a404-fdc8-460f-a944-79e5f85ce37d.png" alt="Professional solar installation van with company branding and equipped with solar panels and installation equipment" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body> 
+</html>
+
